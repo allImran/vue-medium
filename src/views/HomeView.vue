@@ -9,8 +9,6 @@ const replyHello = (e) => {
   return new Promise(resolve => setTimeout(() => resolve(e), 3000))
 }
 
-
-const count = 0
 const myWorker = new Worker()
 
 myWorker.postMessage({
